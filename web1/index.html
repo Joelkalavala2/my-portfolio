@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <a href="#div2">About</a>
+        <a href="#div3">Experience</a>
+        <a href="#div4">Projects</a>
+        <a href="#div5">Contact</a>
+    </nav>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div id="div1">
+        <h3 id="Hi">Hi im</h3>
+        <h1 id="name"><span id="name-text"></span></h1>
+        <h4 id="welcome">Welcome to my Portfolio</h4>
+    </div>
+    <div id="div2">
+        <div class="image-side" id="imageSide"></div>
+        <div class="text-side" id="textSide">
+            <h2 id="about-me"></h2>
+            <p id="p1">Hi, I’m John Joel Finny Kalavala, a versatile professional with a unique blend of engineering expertise and a passion for technology. With a background in Mechanical Engineering and hands-on experience in banking operations, I’ve honed my skills in problem-solving, risk management, and process optimization. Currently, I’m expanding my horizons into Full-Stack Development, mastering HTML, CSS, JavaScript, Java, and Spring Boot to build dynamic, user-friendly applications. My portfolio showcases projects that reflect my ability to adapt, learn, and deliver results—whether it’s designing efficient systems or creating seamless web experiences. I thrive on challenges, constantly pushing myself to grow and innovate. From analyzing complex data to developing intuitive interfaces, I bring a curious mindset and a relentless work ethic to every project. Let’s connect and create something extraordinary together!</p>
+        </div>
+    </div>
+    <div id="div3">
+        <div class="experience-container">
+            <div class="rectangle-container">
+                <div class="rectangle active" style="background-image: url('https://images.pexels.com/photos/87236/pexels-photo-87236.jpeg?auto=compress&cs=tinysrgb&w=1200');">ONGC</div>
+                <div class="rectangle" style="background-image: url('https://images.pexels.com/photos/716661/pexels-photo-716661.jpeg?auto=compress&cs=tinysrgb&w=1200');">Enlight CAD Engineering</div>
+                <div class="rectangle" style="background-image: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1200');">Plasmid</div>
+                <div class="rectangle" style="background-image: url('https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg?auto=compress&cs=tinysrgb&w=1200');">Wipro</div>
+            </div>
+            <div class="experience-details">
+                <h2>Experience 1</h2>
+                <p>Details about Experience 1. This is where you can describe your first experience in detail.</p>
+            </div>
+        </div>
+        <div id = "div3-spacer"></div>
+    </div>
+    <div id="div4">
+    <h1 id="div4head">My Projects</h1>
+    <div class="container">
+        <div class="rectangle active" data-index="0">
+            <div class="rectangle-content">
+                <div class="rectangle-image" style="background-image: url('https://images.pexels.com/photos/7947758/pexels-photo-7947758.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+                <div class="rectangle-description">
+                    <h2>Data Engineering & Analysis Simulation - Commonwealth Bank (Forage)</h2>
+                    <p>Completed a comprehensive job simulation for Commonwealth Bank's Data Science team, integrating web scraping and data analysis. Utilized Python to scrape unstructured data from Twitter, transforming it into structured datasets for analysis. Developed data engineering pipelines for insight extraction, implemented data anonymization for privacy compliance, and proposed data analysis strategies for social media data, demonstrating a strong understanding of data-driven decision-making.</p>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle" data-index="1">
+            <div class="rectangle-content">
+                <div class="rectangle-image" style="background-image: url('https://images.pexels.com/photos/27531565/pexels-photo-27531565/free-photo-of-siemens-train.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+                <div class="rectangle-description">
+                    <h2>Analytical Project Management - Siemens Mobility (Forage)</h2>
+                    <p>Executed a project aimed at optimizing project performance monitoring for Siemens Mobility. Developed and deployed a comprehensive KPI framework, leveraging analytical skills to ensure strategic alignment and measurable progress in rail infrastructure projects. Designed and implemented interactive project dashboards in Microsoft Excel, significantly improving stakeholder communication and transparency. Proactively addressed project challenges, demonstrating strong problem-solving and adaptability to maintain project timelines and stakeholder satisfaction.</p>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle" data-index="2">
+            <div class="rectangle-content">
+                <div class="rectangle-image" style="background-image: url('https://images.pexels.com/photos/14901885/pexels-photo-14901885.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+                <div class="rectangle-description">
+                    <h2>Pneumatic-Electric Hybrid Car Development Project</h2>
+                    <p>Conceived, designed, and constructed a unique hybrid vehicle integrating pneumatic and electric propulsion systems. This project involved extensive mechanical and electrical engineering, including the design of a dual-power system, fabrication of custom components, and integration of control systems. Demonstrated a comprehensive understanding of hybrid vehicle technology and hands-on experience in bringing innovative concepts to life.</p>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle" data-index="3">
+            <div class="rectangle-content">
+                <div class="rectangle-image" style="background-image: url('https://images.pexels.com/photos/19895882/pexels-photo-19895882/free-photo-of-engineer-working-in-office.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+                <div class="rectangle-description">
+                    <h2>SolidWorks Design & ANSYS Simulation for Hybrid Vehicle Aerodynamic Optimization</h2>
+                    <p>Designed the hybrid vehicle in SolidWorks and performed comprehensive aerodynamic simulations in ANSYS, focusing on windshield and hood optimization. Conducted detailed analyses to determine the optimal angles and positions for these components, enhancing vehicle performance and efficiency. Developed and implemented the refined design into the physical hybrid vehicle, demonstrating a strong integration of digital simulation and practical engineering.</p>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle" data-index="4">
+            <div class="rectangle-content">
+                <div class="rectangle-image" style="background-image: url('https://images.pexels.com/photos/3642618/pexels-photo-3642618.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+                <div class="rectangle-description">
+                    <h2>Development of a Regenerative Braking System Prototype</h2>
+                    <p>Engineered a prototype regenerative braking system, applying principles of electromechanical design and energy conversion. This project involved detailed system design, component selection, and testing to optimize energy recovery during deceleration. Showcased proficiency in electrical circuitry, mechanical systems, and data analysis to achieve a functional and efficient regenerative braking system.</p>
+                </div>
+            </div>
+        </div>
+        <div class="arrow right-arrow">
+        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+        <div class="arrow left-arrow">
+        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+    </div>
+</div>
+<div id="div5">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" class="linkedin"></a>
+            <a href="mailto:your-email@gmail.com" target="_blank" class="gmail"></a>
+        </div>
+    </div>
+</div>
+<script src="script1.js"></script>
+
+</body>
+</html>
