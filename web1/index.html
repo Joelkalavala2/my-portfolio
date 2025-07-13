@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Joelkalavala</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./pic/Adobe Express - file.png" type="image/x-icon">
 </head>
 <body>
 
@@ -110,18 +111,48 @@
 <div id="div5">
     <div class="contact-container">
         <h2>Contact Me</h2>
-        <form action="#" method="POST">
+        <form name="contact" method="POST">
+            <input type="hidden" name="form-name" value="contact" />
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
+
         <div class="social-links">
             <a href="https://www.linkedin.com/in/john-joel-finny-kalavala-b761231b4/" target="_blank" class="linkedin"></a>
             <a href="mailto:joelkalavala6@gmail.com" target="_blank" class="gmail"></a>
         </div>
     </div>
 </div>
+
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-compat.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // Use the config you got from the Firebase Console (your actual values)
+  const firebaseConfig = {
+    apiKey: "AIzaSyCcr3Z6CXtlCgdpTrLah2kTeT46JT10Ui8", // YOUR_API_KEY
+    authDomain: "portfolio-a08e8.firebaseapp.com", // YOUR_AUTH_DOMAIN
+    databaseURL: "https://portfolio-a08e8-default-rtdb.firebaseio.com", // YOUR_DATABASE_URL (optional for Firestore)
+    projectId: "portfolio-a08e8", // YOUR_PROJECT_ID
+    storageBucket: "portfolio-a08e8.firebasestorage.app", // YOUR_STORAGE_BUCKET
+    messagingSenderId: "532692232417", // YOUR_MESSAGING_SENDER_ID
+    appId: "1:532692232417:web:a37622c5a77b207b8f2fa0", // YOUR_APP_ID
+    measurementId: "G-FMWYYY17D2" // YOUR_MEASUREMENT_ID (optional)
+  };
+
+  // Initialize Firebase and get references to Firestore and Auth
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+  const auth = firebase.auth();
+
+  // You can also initialize analytics if you want
+  // const analytics = firebase.analytics(); // Requires firebase-analytics-compat.js
+</script>
+
 <script src="script1.js"></script>
 
 </body>
