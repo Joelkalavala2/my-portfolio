@@ -6,7 +6,7 @@
         #div1 {
             position: relative;
             font-family: 'Aprilia', sans-serif;
-            background-image: url('https://images.pexels.com/photos/668282/pexels-photo-668282.jpeg?auto=compress&cs=tinysrgb&w=1200');
+            background-image: url('https://images.pexels.com/photos/1287081/pexels-photo-1287081.jpeg?auto=compress&cs=tinysrgb&w=1200');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -293,7 +293,7 @@
           height: 50vh; /* Adjust height as needed */
         }
         #div4 {
-            height: 105vh;
+            height: 110vh;
             background-image: url('https://images.pexels.com/photos/3178786/pexels-photo-3178786.jpeg?auto=compress&cs=tinysrgb&w=1200');
             margin-top: -40px;
             background-attachment: fixed;
@@ -304,7 +304,7 @@
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 20vh;
   background-size: cover;
   background-position: center;
 }
@@ -321,7 +321,7 @@
 
 #div4 .rectangle {
   width: 30%;
-  height: 300px;
+  height: 50vh;
   background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
   position: absolute;
